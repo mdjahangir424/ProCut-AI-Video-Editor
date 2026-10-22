@@ -1,0 +1,6 @@
+{
+  "name": "ProCut AI Video Editor",
+  "description": "Professional video editor with timeline trimming, splitting, text overlays, and AI tools",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

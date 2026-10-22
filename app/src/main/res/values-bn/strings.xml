@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">প্রোকাট</string>
+    <string name="app_full_name">প্রোকাট এআই ভিডিও এডিটর</string>
+    <string name="home_title">প্রোকাট স্টুডিও</string>
+    <string name="create_new_project">নতুন প্রজেক্ট</string>
+    <string name="recent_projects">সাম্প্রতিক প্রজেক্ট</string>
+    <string name="draft_projects">খসড়া</string>
+    <string name="no_projects_yet">এখনও কোন প্রজেক্ট নেই। আপনার প্রথম ভিডিও তৈরি শুরু করুন!</string>
+    <string name="import_video">ভিডিও ইমপোর্ট</string>
+    <string name="import_photos">ছবি ইমপোর্ট</string>
+    <string name="quick_tools">কুইক টুলস</string>
+    <string name="ai_tools">এআই স্টুডিও টুলস</string>
+    <string name="settings">সেটিংস</string>
+
+    <string name="project_setup_title">প্রজেক্ট সেটআপ</string>
+    <string name="project_name">প্রজেক্টের নাম</string>
+    <string name="aspect_ratio">অ্যাসপেক্ট রেশিও</string>
+    <string name="resolution">রেজোলিউশন</string>
+    <string name="frame_rate">ফ্রেম রেট</string>
+    <string name="create_project">প্রজেক্ট তৈরি করুন</string>
+    <string name="aspect_9_16">৯:১৬ (টিকটক / রিলস)</string>
+    <string name="aspect_16_9">১৬:৯ (ইউটিউব)</string>
+    <string name="aspect_1_1">১:১ (স্কয়ার)</string>
+    <string name="aspect_4_5">৪:৫ (পোর্ট্রেট)</string>
+    <string name="aspect_3_4">৩:৪ (ফিড)</string>
+
+    <string name="undo">আনডু</string>
+    <string name="redo">রিডু</string>
+    <string name="save">সেভ</string>
+    <string name="saved">সংরক্ষিত</string>
+    <string name="saving">সংরক্ষণ হচ্ছে...</string>
+    <string name="export">এক্সপোর্ট</string>
+    <string name="split">স্প্লিট</string>
+    <string name="trim">ট্রিম</string>
+    <string name="delete">মুছে ফেলুন</string>
+    <string name="duplicate">ডুপ্লিকেট</string>
+    <string name="volume">ভলিউম</string>
+    <string name="speed">গতি</string>
+    <string name="filters">ফিল্টার</string>
+    <string name="add_audio">অডিও যোগ করুন</string>
+    <string name="add_text">টেক্সট যোগ করুন</string>
+    <string name="text_overlay">টেক্সট ওভারলে</string>
+    <string name="enter_text">ক্যাপশন বা টেক্সট লিখুন...</string>
+    <string name="font_size">ফন্ট সাইজ</string>
+    <string name="text_color">টেক্সট কালার</string>
+    <string name="move_left">বামে সরান</string>
+    <string name="move_right">ডানে সরান</string>
+    <string name="no_clips_in_timeline">টাইমলাইন খালি। ভিডিও বা ছবি যোগ করতে \'+\' চাপুন।</string>
+    <string name="selected_clip">নির্বাচিত ক্লিপ</string>
+    <string name="timeline">টাইমলাইন</string>
+    <string name="mute">মিউট</string>
+    <string name="unmute">আনমিউট</string>
+    <string name="rotate">ঘোরান</string>
+
+    <string name="export_video">ভিডিও এক্সপোর্ট</string>
+    <string name="export_settings">এক্সপোর্ট সেটিংস</string>
+    <string name="exporting">ভিডিও প্রস্তুত হচ্ছে...</string>
+    <string name="export_success">এক্সপোর্ট সম্পন্ন!</string>
+    <string name="export_failed">এক্সপোর্ট ব্যর্থ হয়েছে</string>
+    <string name="export_cancel">বাতিল করুন</string>
+    <string name="estimated_size">আনুমানিক সাইজ</string>
+    <string name="play_video">ভিডিও চালান</string>
+    <string name="share_video">শেয়ার করুন</string>
+    <string name="export_progress">প্রক্রিয়া চলছে: %1$d%%</string>
+
+    <string name="ai_studio_title">এআই স্টুডিও</string>
+    <string name="auto_captions">অটো সাবটাইটেল</string>
+    <string name="transcribe_audio">ভয়েস থেকে টেক্সট</string>
+    <string name="script_generator">স্ক্রিপ্ট ও হুক জেনারেটর</string>
+    <string name="voice_enhancer">ভয়েস ক্লিনার</string>
+    <string name="ai_suggestions">স্মার্ট এডিটিং পরামর্শ</string>
+    <string name="ai_generate">এআই দিয়ে তৈরি করুন</string>
+    <string name="ai_generating">এআই কাজ করছে...</string>
+    <string name="ai_offline_mode">অফলাইন মোড (রুল-বেসড স্পিচ অ্যানালাইসিস)</string>
+    <string name="ai_cloud_mode">ক্লাউড এআই (জেমিনি মাল্টিমোডাল)</string>
+    <string name="privacy_notice">গোপনীয়তা: আপনার ভিডিও ডিভাইসেই সম্পাদিত হয়। আপনি অনুমতি দিলেই কেবল ক্লাউড এআই ব্যবহার করা হবে।</string>
+
+    <string name="language">ভাষা</string>
+    <string name="language_english">English</string>
+    <string name="language_bengali">বাংলা</string>
+    <string name="theme_mode">থিম মোড</string>
+    <string name="dark_theme">ডার্ক থিম</string>
+    <string name="light_theme">লাইট থিম</string>
+    <string name="clear_cache">মিডিয়া ক্যাশ পরিষ্কার করুন</string>
+    <string name="cache_cleared">ক্যাশ সফলভাবে পরিষ্কার হয়েছে</string>
+    <string name="app_version">সংস্করণ</string>
+    <string name="about_procut">প্রোকাট এআই ভিডিও এডিটর সম্পর্কে</string>
+</resources>
