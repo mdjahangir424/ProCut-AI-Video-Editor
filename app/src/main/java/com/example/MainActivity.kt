@@ -14,6 +14,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import com.example.core.firebase.configureAppCheck
 import com.example.navigation.AppNavigation
 import com.example.ui.theme.ProCutTheme
 import java.util.Locale
@@ -26,7 +27,7 @@ class MainActivity : ComponentActivity() {
     override fun attachBaseContext(newBase: Context) {
         val prefs = newBase.getSharedPreferences("procut_prefs", Context.MODE_PRIVATE)
         val lang = prefs.getString("app_language", "bn") ?: "bn"
-        val locale = Locale(lang)
+        val locale = Locale.Builder().setLanguage(lang).build()
         Locale.setDefault(locale)
         val config = Configuration(newBase.resources.configuration)
         config.setLocale(locale)
@@ -35,6 +36,10 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // STEP 1: App Check initialization with launch intent before UI/ViewModels
+        configureAppCheck(this, intent)
+
         enableEdgeToEdge()
 
         val prefs = getSharedPreferences("procut_prefs", Context.MODE_PRIVATE)

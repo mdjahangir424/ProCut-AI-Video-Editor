@@ -1,0 +1,8 @@
+{
+  "firestore": [
+    {
+      "database": "ai-studio-android-procutai-e901d408-cd27-4f2b-ab44-e682786a8c0e",
+      "rules": "firestore.rules"
+    }
+  ]
+}

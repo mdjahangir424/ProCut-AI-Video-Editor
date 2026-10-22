@@ -1,13 +1,27 @@
 package com.example
 
+import com.example.core.config.CreatorInfo
 import com.example.core.model.AspectRatio
 import com.example.core.model.EditingProject
 import com.example.core.model.VideoClip
 import com.example.core.model.VideoResolution
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class ExampleUnitTest {
+
+    @Test
+    fun testCreatorAttributionAndContactInfo() {
+        assertEquals("Md Jahangir Alam", CreatorInfo.DEVELOPER_NAME)
+        assertEquals("+8801778600028", CreatorInfo.CONTACT_PHONE)
+        assertEquals("mdjahangiralam2528@gmail.com", CreatorInfo.CONTACT_EMAIL)
+        assertEquals("ProCut AI Video Editor", CreatorInfo.APP_NAME)
+        assertTrue(CreatorInfo.COPYRIGHT_NOTICE.contains("Md Jahangir Alam"))
+        assertTrue(CreatorInfo.COPYRIGHT_NOTICE.contains("2026"))
+        assertTrue(CreatorInfo.CREATOR_ATTRIBUTION.contains("Md Jahangir Alam"))
+        assertTrue(CreatorInfo.THIRD_PARTY_LICENSES.isNotEmpty())
+    }
 
     @Test
     fun testClipEffectiveDuration() {

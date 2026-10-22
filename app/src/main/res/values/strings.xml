@@ -85,4 +85,19 @@
     <string name="cache_cleared">Cache successfully cleared</string>
     <string name="app_version">Version</string>
     <string name="about_procut">About ProCut AI Video Editor</string>
+    <string name="developer_and_ownership">Developer &amp; Ownership</string>
+    <string name="developed_by">Developed by</string>
+    <string name="creator_name">Md Jahangir Alam</string>
+    <string name="creator_phone">+8801778600028</string>
+    <string name="creator_email">mdjahangiralam2528@gmail.com</string>
+    <string name="creator_role">App Creator &amp; Project Owner</string>
+    <string name="contact_phone_label">Contact Phone</string>
+    <string name="contact_email_label">Contact Email</string>
+    <string name="copyright_notice">© 2026 Md Jahangir Alam. All rights reserved to the extent permitted by applicable law.</string>
+    <string name="creator_attribution">ProCut AI Video Editor — Created and maintained by Md Jahangir Alam.</string>
+    <string name="open_source_licenses">Open-Source Licenses</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="call_developer">Call Developer</string>
+    <string name="email_developer">Email Developer</string>
 </resources>

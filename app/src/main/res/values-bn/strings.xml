@@ -86,4 +86,19 @@
     <string name="cache_cleared">ক্যাশ সফলভাবে পরিষ্কার হয়েছে</string>
     <string name="app_version">সংস্করণ</string>
     <string name="about_procut">প্রোকাট এআই ভিডিও এডিটর সম্পর্কে</string>
+    <string name="developer_and_ownership">ডেভেলপার ও মালিকানা</string>
+    <string name="developed_by">নির্মাতা ও ডেভেলপার</string>
+    <string name="creator_name">মো. জাহাঙ্গীর আলম (Md Jahangir Alam)</string>
+    <string name="creator_phone">+8801778600028</string>
+    <string name="creator_email">mdjahangiralam2528@gmail.com</string>
+    <string name="creator_role">অ্যাপ ক্রিয়েটর ও প্রজেক্ট স্বত্বাধিকারী</string>
+    <string name="contact_phone_label">যোগাযোগের ফোন নম্বর</string>
+    <string name="contact_email_label">যোগাযোগের ইমেইল</string>
+    <string name="copyright_notice">© ২০২৬ মো. জাহাঙ্গীর আলম (Md Jahangir Alam)। সর্বস্বত্ব সংরক্ষিত।</string>
+    <string name="creator_attribution">প্রোকাট এআই ভিডিও এডিটর — তৈরি ও পরিচালনায় মো. জাহাঙ্গীর আলম (Md Jahangir Alam)।</string>
+    <string name="open_source_licenses">ওপেন-সোর্স লাইসেন্সসমূহ</string>
+    <string name="privacy_policy">গোপনীয়তা নীতি (Privacy Policy)</string>
+    <string name="terms_of_use">ব্যবহারের শর্তাবলী (Terms of Use)</string>
+    <string name="call_developer">ডেভেলপারের সাথে কল করুন</string>
+    <string name="email_developer">ইমেইল পাঠান</string>
 </resources>

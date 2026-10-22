@@ -1,15 +1,12 @@
 package com.example.navigation
 
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.feature.about.AboutScreen
 import com.example.feature.ai.AiStudioScreen
 import com.example.feature.editor.EditorScreen
 import com.example.feature.export.ExportScreen
@@ -22,6 +19,7 @@ object Destinations {
     const val EXPORT = "export/{projectId}"
     const val AI_STUDIO = "ai_studio"
     const val SETTINGS = "settings"
+    const val ABOUT = "about"
 
     fun editor(projectId: String) = "editor/$projectId"
     fun export(projectId: String) = "export/$projectId"
@@ -91,6 +89,15 @@ fun AppNavigation(
                 onLanguageChange = onLanguageChange,
                 isDarkTheme = isDarkTheme,
                 onThemeToggle = onThemeToggle,
+                onNavigateAbout = {
+                    navController.navigate(Destinations.ABOUT)
+                },
+                onNavigateBack = { navController.popBackStack() }
+            )
+        }
+
+        composable(Destinations.ABOUT) {
+            AboutScreen(
                 onNavigateBack = { navController.popBackStack() }
             )
         }

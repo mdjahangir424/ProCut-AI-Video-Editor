@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProCut Firebase Blueprint",
+  "description": "Firestore schema for ProCut AI Video Editor cloud project sync and backup",
+  "entities": {
+    "Project": {
+      "collection": "users/{userId}/projects",
+      "documentId": "{projectId}",
+      "description": "Cloud synced video editing projects owned by the authenticated user",
+      "fields": {
+        "id": { "type": "string", "description": "Unique project identifier" },
+        "userId": { "type": "string", "description": "Owner Google UID" },
+        "title": { "type": "string", "description": "Project title" },
+        "aspectRatio": { "type": "string", "description": "Aspect ratio name" },
+        "resolution": { "type": "string", "description": "Resolution preset name" },
+        "frameRate": { "type": "string", "description": "Frame rate preset name" },
+        "totalDurationMs": { "type": "integer", "description": "Total duration in milliseconds" },
+        "thumbnailUri": { "type": "string", "description": "Optional thumbnail preview URI" },
+        "projectJson": { "type": "string", "description": "Serialized timeline state JSON" },
+        "createdAt": { "type": "timestamp", "description": "Creation timestamp" },
+        "updatedAt": { "type": "timestamp", "description": "Last update timestamp" }
+      },
+      "required": ["id", "userId", "title", "aspectRatio", "projectJson", "createdAt", "updatedAt"]
+    }
+  }
+}
